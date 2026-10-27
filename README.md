@@ -1,6 +1,6 @@
 # Climate Shelters BCN: where should Barcelona open its next climate shelters?
 
-[![CI](https://github.com/YOUR-GITHUB-USER/climate-shelters-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-GITHUB-USER/climate-shelters-optimizer/actions/workflows/ci.yml)
+[![CI](https://github.com/Andresnico172/climate-shelters-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/Andresnico172/climate-shelters-optimizer/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 ![OR-Tools](https://img.shields.io/badge/solver-OR--Tools%20CP--SAT-orange)
 
