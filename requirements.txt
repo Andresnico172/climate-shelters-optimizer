@@ -1,0 +1,7 @@
+# Runtime dependencies of the Streamlit app (used by Streamlit Community Cloud and Docker).
+numpy>=1.26,<3
+pandas>=2.1,<3
+ortools>=9.10,<10
+streamlit>=1.40
+plotly>=5.20
+pydeck>=0.9

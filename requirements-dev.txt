@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest>=8
+ruff>=0.6
+# only needed to rebuild data/processed from data/raw (scripts/build_instance.py)
+geopandas>=1.0
+shapely>=2.0
+pyogrio>=0.9
+scipy>=1.12
