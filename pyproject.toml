@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "climate-shelters-optimizer"
+version = "1.0.0"
+description = "Optimal location of climate shelters in Barcelona: exact models, metaheuristics, multi-objective and simulation-based optimisation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Andrés Nicolás Uranga Limón" }]
+dependencies = ["numpy>=1.26", "pandas>=2.1", "ortools>=9.10"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.38", "plotly>=5.20", "pydeck>=0.9"]
+etl = ["geopandas>=1.0", "shapely>=2.0", "pyogrio>=0.9", "scipy>=1.12"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "NPY"]
+ignore = ["B023"]
+
+[tool.ruff.lint.per-file-ignores]
+"app/*" = ["E501"]  # long markdown / UI strings
+
+[tool.ruff.lint.isort]
+known-first-party = ["shelters", "ui"]

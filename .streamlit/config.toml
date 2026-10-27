@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#c8202d"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
