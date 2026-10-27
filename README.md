@@ -1,7 +1,6 @@
 # Climate Shelters BCN: where should Barcelona open its next climate shelters?
 
 [![CI](https://github.com/YOUR-GITHUB-USER/climate-shelters-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-GITHUB-USER/climate-shelters-optimizer/actions/workflows/ci.yml)
-[![Live app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP.streamlit.app)
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 ![OR-Tools](https://img.shields.io/badge/solver-OR--Tools%20CP--SAT-orange)
 
@@ -11,7 +10,7 @@ Decision-support app that locates new **climate shelters** (cooled public spaces
 **simulation-based optimisation** on a discrete-event model of a heat-wave day. The model runs on real open data
 and real walking distances over the city street network.
 
-**▶ Live demo:** https://YOUR-APP.streamlit.app
+**▶ Live demo:** _link added after deployment_
 
 ![Optimise tab](docs/img/optimise.png)
 
