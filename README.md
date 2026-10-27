@@ -13,6 +13,10 @@ and real walking distances over the city street network.
 
 **▶ Live demo:** https://climate-shelters-optimizer-bcn.streamlit.app
 
+**🎓 Origin:** a challenge from the **XI Iberian Modeling Week (IMW)**, organised by the
+[Centre de Recerca Matemàtica](https://www.crm.cat) (Bellaterra, July 7–11, 2025). See [Origin](#origin) and the
+[certificate of attendance](docs/certificate/IMW2025_certificate.pdf).
+
 ![Optimise tab](docs/img/optimise.png)
 
 ## Key results
@@ -124,7 +128,8 @@ docker build -t climate-shelters . && docker run -p 8501:8501 climate-shelters
 
 ## Origin
 
-This started as a team project at the **Barcelona Modelling Week (July 2025)**, on a challenge about climate shelters. The team
+This started as a team project at the **XI Iberian Modeling Week (IMW)**, organised by the Centre de Recerca Matemàtica (CRM)
+in Bellaterra, Barcelona, from July 7 to 11, 2025, on a challenge about climate shelters. The team
 formulated a vulnerability-weighted p-center (age 70+ and distance to parks) and solved it with Gurobi on straight-line
 distances between centroids. This repository is my re-engineering and extension of that work:
 
@@ -135,6 +140,10 @@ distances between centroids. This repository is my re-engineering and extension 
 * multi-objective analysis;
 * stochastic simulation of capacity, with simulation-based optimisation;
 * a tested, deployable app.
+
+<a href="docs/certificate/IMW2025_certificate.pdf"><img src="docs/img/imw2025_certificate.png" alt="CRM certificate of attendance, XI Iberian Modeling Week 2025" width="420"></a>
+
+*Certificate of attendance, XI Iberian Modeling Week, Centre de Recerca Matemàtica ([PDF](docs/certificate/IMW2025_certificate.pdf)).*
 
 ## Limitations and next steps
 
